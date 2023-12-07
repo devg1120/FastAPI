@@ -1,0 +1,17 @@
+docker build -t hypercorn-test .
+
+docker run -p 3000:80 hypercorn-test
+
+curl http://127.0.0.1:3000/
+
+
+-----------  docker container stop -------------
+~$ docker ps
+CONTAINER ID   IMAGE            COMMAND                  CREATED          STATUS          PORTS                                   NAMES
+141a89880590   hypercorn-test   "hypercorn main:app …"   31 minutes ago   Up 31 minutes   0.0.0.0:8080->80/tcp, :::8080->80/tcp   flamboyant_faraday
+
+~$ docker exec -it 141a89880590 /bin/bash
+
+root@141a89880590:/app# kill 1
+
+
