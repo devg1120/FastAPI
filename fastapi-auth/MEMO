@@ -1,0 +1,7 @@
+
+
+https://blog.hapins.net/entry/2023/03/05/113755
+
+$ python3 -m uvicorn main:app --reload --port 5000
+
+
