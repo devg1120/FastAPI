@@ -2,3 +2,15 @@ https://zenn.dev/sh0nk/books/537bb028709ab9/viewer/f1b6fc
 
 https://zenn.dev/sh0nk/books/537bb028709ab9/viewer/d3f074
 
+
+
+down
+sudo docker-compose -f docker-compose.yaml  down
+
+
+ docker exec -it e9f67f1f9963 /bin/bash
+
+
+ ps -efw | grep -i mysql
+
+ kill 999
