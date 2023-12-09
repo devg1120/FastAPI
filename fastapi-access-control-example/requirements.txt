@@ -1,0 +1,7 @@
+fastapi
+freezegun
+more_itertools
+pyjwt
+pytest
+httpx
+uvicorn

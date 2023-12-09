@@ -1,0 +1,21 @@
+
+### setup start
+
+pip3  install -r requirements.txt
+python3 -m uvicorn main:app --reload
+
+
+### testing
+
+$ apt-get install httpie
+$ yum install httpie
+$ brew install httpie
+
+
+http --session=test-admin POST localhost:8000/auth/ userId=admin password=password
+http --session=test-admin GET localhost:8000/items/\n
+
+
+pip3 install httpx
+python3 -m pytest test.py
+
