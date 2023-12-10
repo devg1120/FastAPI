@@ -1,0 +1,19 @@
+FastAPIを使ったAPIサーバ作り
+https://iij.github.io/bootcamp/server-app/fastapi/#%E6%BC%94%E7%BF%92%E7%92%B0%E5%A2%83
+
+$ docker compose up -d
+
+$ docker compose down
+
+$  docker exec -it iijbootcamp-fastapi uvicorn main:app --host 0.0.0.0
+
+
+# terminal 
+ $ curl http://127.0.0.1:8088
+
+# web browser
+ http://127.0.0.1:8088/docs
+
+
+
+
