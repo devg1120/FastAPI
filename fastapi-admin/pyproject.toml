@@ -31,7 +31,7 @@ xlsxwriter = "*"
 colorama = "*"
 prompt_toolkit = "*"
 jinja2 = "*"
-pydantic = "1"
+pydantic = "2"
 
 [tool.poetry.dev-dependencies]
 flake8 = "*"

@@ -7,3 +7,6 @@ ENV POETRY_VIRTUALENVS_CREATE false
 RUN poetry install --no-root
 COPY . /fastapi-admin
 RUN poetry install
+#RUN pip3 install --upgrade gradio
+RUN pip3 install 'pydantic<1.8.0'
+

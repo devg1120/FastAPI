@@ -1,0 +1,12 @@
+# containner log monitor
+
+docker logs --tail 50 --follow --timestamps api
+
+
+# container force stop
+
+sudo systemctl restart docker.socket docker.service
+
+sudo lsof -i:3000
+
+

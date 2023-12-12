@@ -1,0 +1,28 @@
+fastapi-vue
+  github.com/testdrivenio/fastapi-vue
+  docker-compose up -d 
+
+fastapi-vue-admin
+  https://github.com/l2m2/fastapi-vue-admin
+  docker-compose  up -d
+
+vue-fastapi-admin
+  GUI充実している
+  http://github.com/mizhexiaoxiao/vue-fastapi-admin
+  docker build
+  docker run
+  docker build --no-cache . -t vue-fastapi-admin
+  docker run -d --restart=always --name=vue-fastapi-admin -p 3000:80 vue-fastapi-admin
+
+
+fastapi-fullstack
+   https://github.com/benlau6/fastapi-fullstack
+   docker-compose  up -d
+
+fastapi-vuejs-template
+   github.com/gsc2001/fastapi-vuejs-template
+   docker-compose  up -d
+    Vuetify
+
+
+

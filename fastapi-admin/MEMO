@@ -1,0 +1,13 @@
+# containner log monitor
+
+docker logs --tail 50 --follow --timestamps api
+
+
+# container force stop
+
+sudo systemctl restart docker.socket docker.service
+
+sudo lsof -i:3000
+
+
+docker-compose exec -T mysql mysql -uroot -p123456 fastapi-admin
